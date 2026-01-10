@@ -154,6 +154,8 @@ Define funciones almacenadas que:
 **Ejemplo de uso:**
 ```sql
 SELECT get_powerW_dwewelling(1);
+SELECT SELECT get_favourite_brand('Valencia')
+```
 
 ### 6️⃣ Triggers
 
@@ -162,9 +164,6 @@ SELECT get_powerW_dwewelling(1);
 
 **Descripción:**  
 Incluye triggers que se ejecutan automáticamente ante ciertos eventos:
-- `BEFORE INSERT`
-- `AFTER INSERT`
-- `AFTER UPDATE`
 
 Se utilizan para:
 - Calcular campos automáticamente
